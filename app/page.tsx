@@ -98,11 +98,15 @@ function ScrollToTop() {
   ) : null
 }
 
+const heroWords = ['STORY', 'JOURNEY', 'IMPACT', 'GROWTH']
+
 export default function Page() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [project, setProject] = useState<(typeof projects)[number] | null>(null)
   const [submitted, setSubmitted] = useState(false)
   const [disclaimer, setDisclaimer] = useState(false)
+  const [scrollY, setScrollY] = useState(0)
+  const [wordIndex, setWordIndex] = useState(0)
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -114,7 +118,19 @@ export default function Page() {
       })
     }, { threshold: 0.12, rootMargin: '0px 0px -40px' })
     document.querySelectorAll('.reveal').forEach((element) => observer.observe(element))
-    return () => observer.disconnect()
+    
+    const handleScroll = () => setScrollY(window.scrollY)
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    
+    const wordInterval = setInterval(() => {
+      setWordIndex(prev => (prev + 1) % heroWords.length)
+    }, 2500)
+    
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('scroll', handleScroll)
+      clearInterval(wordInterval)
+    }
   }, [])
 
   return (
