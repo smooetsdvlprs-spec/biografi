@@ -49,16 +49,16 @@ function SocialIcons() {
   return (
     <div className="flex gap-3">
       <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-9 h-9 bg-white text-[#1c1b1b] rounded-full flex items-center justify-center hover:bg-[#f2c265] hover:-translate-y-1 transition-all duration-300 shadow-md group">
-        <svg className="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg>
+        <svg className="w-4 h-4 fill-[#1c1b1b] group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg>
       </a>
       <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="w-9 h-9 bg-white text-[#1c1b1b] rounded-full flex items-center justify-center hover:bg-[#f2c265] hover:-translate-y-1 transition-all duration-300 shadow-md group">
-        <svg className="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
+        <svg className="w-4 h-4 fill-[#1c1b1b] group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
       </a>
       <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-9 h-9 bg-white text-[#1c1b1b] rounded-full flex items-center justify-center hover:bg-[#f2c265] hover:-translate-y-1 transition-all duration-300 shadow-md group">
-        <svg className="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" /></svg>
+        <svg className="w-4 h-4 fill-[#1c1b1b] group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" /></svg>
       </a>
       <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Twitter / X" className="w-9 h-9 bg-white text-[#1c1b1b] rounded-full flex items-center justify-center hover:bg-[#f2c265] hover:-translate-y-1 transition-all duration-300 shadow-md group">
-        <svg className="w-4 h-4 fill-current group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+        <svg className="w-4 h-4 fill-[#1c1b1b] group-hover:scale-110 transition-transform" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
       </a>
     </div>
   )
@@ -73,24 +73,29 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   )
 }
 
-function Reveal({ children, className = '' }: { children: React.ReactNode; className?: string }) {
-  return <div className={`reveal ${className}`}>{children}</div>
+function Reveal({ children, className = '', delay = 0 }: { children: React.ReactNode; className?: string, delay?: number }) {
+  return <div className={`reveal ${className}`} style={{ transitionDelay: delay ? `${delay}ms` : undefined }}>{children}</div>
 }
 
 function ScrollToTop() {
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
-    const onScroll = () => setVisible(window.scrollY > 500)
-    window.addEventListener('scroll', onScroll, { passive: true })
-    onScroll()
-    return () => window.removeEventListener('scroll', onScroll)
+    const topEl = document.getElementById('top')
+    if (!topEl) return
+
+    const observer = new IntersectionObserver(([entry]) => {
+      setVisible(!entry.isIntersecting)
+    }, { rootMargin: '0px', threshold: 0.1 })
+    
+    observer.observe(topEl)
+    return () => observer.disconnect()
   }, [])
 
   return visible ? (
     <button
       className="fixed right-6 bottom-6 z-50 w-12 h-12 rounded-full bg-[#f2c265] text-[#1c1b1b] flex items-center justify-center shadow-2xl hover:scale-110 hover:bg-[#e0b255] transition-all"
-      onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      onClick={() => document.getElementById('top')?.scrollIntoView({ behavior: 'smooth' })}
       aria-label="Kembali ke atas"
     >
       <ArrowUpRight size={22} className="-rotate-45" />
@@ -260,7 +265,7 @@ export default function Page() {
           ['∞', 'Ruang kolaborasi'],
           ['24/7', 'Terus bertumbuh']
         ].map(([stat, label], i) => (
-          <div key={i} className={`flex flex-col gap-2 py-4 px-6 ${i !== 3 ? 'border-r border-white/10' : ''}`}>
+          <div key={i} className={`flex flex-col gap-2 py-4 px-6 reveal ${i !== 3 ? 'border-r border-white/10' : ''}`} style={{ transitionDelay: `${i * 150}ms` }}>
             <strong className="text-4xl md:text-5xl font-black text-[#f2c265]">{stat}</strong>
             <span className="text-xs uppercase tracking-widest text-gray-400 font-semibold">{label}</span>
           </div>
@@ -343,7 +348,7 @@ export default function Page() {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {skills.map(([title, text, tags], i) => (
-            <Reveal key={title}>
+            <Reveal key={title} delay={i * 150}>
               <article className="bg-[#242323] p-8 rounded-xl border border-white/10 hover:border-[#f2c265] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between h-full group">
                 <div>
                   <span className="text-xs font-black text-[#f2c265] tracking-widest">0{i + 1}</span>
@@ -375,9 +380,9 @@ export default function Page() {
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {projects.map(item => (
-            <article
-              key={item[0]}
+          {projects.map((item, i) => (
+            <Reveal key={item[0]} delay={i * 150}>
+              <article
               onClick={() => setProject(item)}
               className="bg-[#222121] rounded-xl border border-white/10 overflow-hidden hover:border-[#f2c265] hover:-translate-y-2 transition-all duration-300 cursor-pointer group flex flex-col"
             >
@@ -400,6 +405,7 @@ export default function Page() {
                 </div>
               </div>
             </article>
+            </Reveal>
           ))}
         </div>
       </section>
@@ -417,8 +423,9 @@ export default function Page() {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {works.map((work, i) => (
-            <article key={work[0]} className="bg-[#242323] p-8 rounded-xl border border-white/10 hover:border-[#f2c265] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between group">
-              <div className="aspect-[4/3] rounded-lg bg-gradient-to-br from-[#2a2929] to-[#1a1919] p-6 flex flex-col justify-between border border-white/5 shadow-inner mb-6">
+            <Reveal key={work[0]} delay={i * 150}>
+              <article className="bg-[#242323] p-8 rounded-xl border border-white/10 hover:border-[#f2c265] hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between h-full group">
+                <div className="aspect-[4/3] rounded-lg bg-gradient-to-br from-[#2a2929] to-[#1a1919] p-6 flex flex-col justify-between border border-white/5 shadow-inner mb-6">
                 <span className="text-xs font-bold text-[#f2c265] tracking-widest">{work[0]}</span>
                 <strong className="text-2xl font-black leading-tight text-white group-hover:text-[#f2c265] transition-colors">{work[1]}</strong>
                 <small className="text-xs text-gray-400 uppercase tracking-wider">{work[2]}</small>
@@ -431,6 +438,7 @@ export default function Page() {
                 </a>
               </div>
             </article>
+            </Reveal>
           ))}
         </div>
       </section>
@@ -573,7 +581,7 @@ export default function Page() {
                 Pesan
                 <textarea required placeholder="Ceritakan sedikit tentang kebutuhan Anda" rows={4} className="bg-[#191919] border border-white/10 rounded-lg px-4 py-3 text-sm text-white focus:outline-none focus:border-[#f2c265] transition-colors resize-y" />
               </label>
-              <button type="submit" className="bg-[#f2c265] text-[#1c1b1b] font-black px-8 py-4 rounded-full text-xs tracking-widest uppercase hover:bg-[#e0b255] transition-all flex items-center justify-center gap-3 self-start">
+              <button type="submit" className="bg-[#f2c265] text-[#1c1b1b] font-black px-8 py-4 rounded-full text-xs tracking-widest uppercase hover:bg-[#e0b255] transition-all flex items-center justify-center gap-3 w-full sm:w-auto mt-2">
                 {submitted ? <><Check size={18} /> PESAN TERKIRIM</> : <>KIRIM PESAN <ArrowUpRight size={18} /></>}
               </button>
             </form>

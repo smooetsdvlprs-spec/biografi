@@ -36,8 +36,6 @@ a {
 
 button {
   cursor: pointer;
-  border: none;
-  background: none;
   font-family: inherit;
 }
 
@@ -106,7 +104,9 @@ button {
 .reveal {
   opacity: 0;
   transform: translateY(28px);
-  transition: opacity 0.7s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition-property: opacity, transform;
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .reveal.is-visible {
